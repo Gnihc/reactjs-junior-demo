@@ -11,7 +11,7 @@
   npm run dev
 ```
 Thiết lập sql connection trong /server/config/config.json
-diaclet là tên của database như MySQL, MySQL
+diaclet là tên của database như MySQL, PostgresQL, MongoDB
 
 config.json
 ```json
