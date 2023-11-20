@@ -1,0 +1,18 @@
+.upload-button-wrapper{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.upload-button{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color .25s ease-out;
+}
+.upload-button:hover{
+    background-color: rgb(203, 255, 255);
+}
+.upload-button > img{
+    height: 100%;
+}
+

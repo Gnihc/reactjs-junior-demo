@@ -1,0 +1,35 @@
+.stat__icon{
+    position: relative;
+    height: 100%;
+}
+.stat__icon > img{
+    height: 100%;
+}
+.stat__icon--filled{
+    position: absolute;
+    transform: translateX(-100%);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .15s ease-out;
+}
+
+.stat__icon:hover > .stat__icon--filled, .stat__icon--filled.active {
+    opacity: 1;
+}
+
+.stat-button{
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+}
+
+.stat-section{
+    display: flex;
+    height: 50px;
+    gap:35px;
+    padding: 0 2.5%;
+}
+
+.stat-button > span{
+    margin: 0 10px;
+}

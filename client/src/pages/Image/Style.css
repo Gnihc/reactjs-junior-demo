@@ -1,0 +1,86 @@
+.image-wrapper{
+  aspect-ratio: 2.75;
+  transition: aspect-ratio .25s ease-out;
+}
+
+@media (max-aspect-ratio: 1.35/1){
+    .image-wrapper{
+        aspect-ratio: 1.15;
+    }
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    padding:1% 2.5%;
+    height: 50px;
+    align-items: center;
+}
+
+.image-post{
+   padding: 0 15%;
+   flex-direction: column;
+}
+.profile-section{
+    height: 50px;
+    display: flex;
+    position: relative;
+    background: none;
+}
+.profile-section > img{
+    height: 100%;
+    background-color: #6affb3;
+    border-radius: 50%;
+}
+.circle-end{
+    height: 100%;
+    min-width: 50px;
+    background-color: #6affb3;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.middle-rectangle{
+    position: absolute;
+    background-color: #6affb3;
+    width: calc(100% - 75px);
+    height: 100%;
+    right: 100%;
+    transform: translateX(calc(100% + 25px));
+    z-index: -1;
+}
+.action-buttons{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+}
+
+.action-buttons > *{
+    width:75px;
+    height: 35px;
+    padding: 5px;
+}
+#save-button{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: #6affb3;
+    border-color: #00f069;
+    border-radius: 5px;
+    border-style: solid;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+#image-name{
+    background-color: rgb(238, 238, 238);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.user-info{
+    color: white;
+}

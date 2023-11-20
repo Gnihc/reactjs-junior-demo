@@ -1,0 +1,10 @@
+.navbar > div > .rw-widget{
+    height:75%;
+    padding:5px;
+    border-radius:5px;
+    max-width: 200px;
+}
+label{
+    font-size: .85em;
+    font-weight: bold;
+}

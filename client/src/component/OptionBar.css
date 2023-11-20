@@ -1,0 +1,38 @@
+.option-button{
+  padding: 5px 15px;
+  background: none;
+  border: solid rgba(0,0,0,0);
+  border-radius:5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  cursor: pointer;
+  user-select: none;
+  transition: border .25s ease-out, background .1s ease-out;
+  color: white;
+}
+
+hr{
+  border-style: solid;
+  border-radius: 5px;
+  margin:0;
+  border-color: gray;
+}
+
+.option-button--selected{
+  background-color: rgb(240, 240, 240);
+  font-weight:900;
+  border:solid rgba(0,0,0,0) !important;
+  cursor: auto;
+  color: black;
+}
+.option-button:hover{
+  border: solid rgb(255, 255, 255);
+}
+ul{
+  gap:5px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex:2 !important;
+}
